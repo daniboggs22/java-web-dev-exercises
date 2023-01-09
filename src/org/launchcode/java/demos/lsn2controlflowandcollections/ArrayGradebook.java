@@ -1,8 +1,9 @@
 package org.launchcode.java.demos.lsn2controlflowandcollections;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class ArrayGradebook {
+public class ArrayGradebook { //defining a new class
 
     public static void main(String[] args) {
 
@@ -18,13 +19,14 @@ public class ArrayGradebook {
 
         System.out.println("Enter your students (or ENTER to finish):");
 
+
         // Get student names
         do {
             newStudent = input.nextLine();
-
-            if (!newStudent.equals("")) {
+            if(!newStudent.equals("")) {
                 students[numStudents] = newStudent;
-                numStudents++;
+                numStudents ++;
+
             }
 
         } while(!newStudent.equals(""));
