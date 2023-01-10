@@ -3,6 +3,7 @@ package studios.countingcharacters;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class ChangingChars {
     public static void main(String[] args) {
         String sentence = "If the product of two terms is zero then common sense says " +
@@ -15,6 +16,9 @@ public class ChangingChars {
         char[] charactersInString = sentence.toCharArray();
         //initialize HashMap
         HashMap<Character, Integer> sentenceChar = new HashMap<>();
+
+
+
 
         //loop through and count
         for(char character: charactersInString) {
