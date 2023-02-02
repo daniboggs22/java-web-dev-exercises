@@ -11,9 +11,15 @@ public class Main {
         // TODO: Use a Comparator class to sort the 'flavors' array alphabetically by the 'name'
         //  field.
 
+
         // TODO: Use a Comparator class to sort the 'cones' array in increasing order by the 'cost'
         //  field.
 
         // TODO: Print the 'flavors' and 'cones' lists (in a clear manner) to verify the sorting.
+
+        // TODO: Use a Comparator class to sort the 'flavors' array by amount of allergens highest to
+        //  lowest
+//        System.out.println(FlavorComparator(Flavor flavor1, Flavor flavor2));
+
     }
 }
